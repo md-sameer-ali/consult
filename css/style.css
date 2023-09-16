@@ -1,0 +1,1171 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+  max-width: 1825px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  font-family: "Barlow", sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.head {
+  background-color: white;
+  padding: 10px 0;
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation .consult {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #F3525A;
+}
+.navigation .consult i {
+  font-size: 45px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+.navigation ul {
+  display: block;
+  display: flex;
+}
+.navigation ul li {
+  margin-right: 20px;
+}
+.navigation ul li a {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px;
+  transition: all 0.5s;
+}
+.navigation ul li a:hover {
+  color: #F3525A;
+}
+.navigation ul .li {
+  margin-right: 0;
+}
+.navigation button {
+  display: none;
+  border: none;
+}
+.navigation button i {
+  font-size: 20px;
+  color: black;
+}
+
+.one-main {
+  width: 100%;
+  min-height: 1000px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/carousel-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.one {
+  width: 50%;
+  margin: 0 auto;
+  color: white;
+}
+
+.sub-one {
+  text-align: center;
+}
+.sub-one h1 {
+  font-size: 80px;
+}
+.sub-one .t-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.sub-one .t-btn .btn {
+  display: inline-block;
+  padding: 15px 30px;
+  color: white;
+  border-radius: 100px;
+  white-space: nowrap;
+  transition: 0.5s;
+  background-color: #F3525A;
+  margin: 0 20px;
+  border: 1px solid transparent;
+}
+.sub-one .t-btn .btn:hover {
+  border: 1px solid #F3525A;
+  background: none;
+  color: #F3525A;
+}
+.sub-one .t-btn .btn2 {
+  background-color: white;
+  color: black;
+}
+
+.consult {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.consult .planning {
+  width: 50%;
+  background-color: #F3525A;
+  padding: 50px 40px;
+}
+
+.welcome {
+  width: 50%;
+  padding: 50px 40px;
+}
+.welcome h2 {
+  font-size: 50px;
+}
+.welcome h2 span {
+  color: #F3525A;
+}
+.welcome p {
+  font-size: 22px;
+  font-weight: 300;
+  color: gray;
+}
+.welcome p span {
+  display: block;
+  color: #F3525A;
+  margin: 20px 0;
+  font-weight: 600;
+}
+.welcome a {
+  display: inline-block;
+  padding: 15px 30px;
+  color: white;
+  border-radius: 100px;
+  white-space: nowrap;
+  transition: 0.5s;
+  display: inline-block;
+  border: 1px solid #F3525A;
+  background-color: #F3525A;
+  margin-top: 40px;
+}
+.welcome a:hover {
+  border: 1px solid #F3525A;
+  background: none;
+  color: #F3525A;
+}
+
+.business {
+  display: flex;
+  flex-wrap: wrap;
+}
+.business i {
+  font-size: 50px;
+  margin-right: 20px;
+  color: white;
+}
+.business p {
+  width: 90%;
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+}
+.business a {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.business span {
+  display: block;
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: black;
+}
+
+.business2 {
+  margin: 50px 0;
+}
+
+.offer-main {
+  padding: 50px 0;
+}
+
+.main {
+  text-align: center;
+}
+.main .research {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.why {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.head-title {
+  font-size: 50px;
+}
+
+.res-bx {
+  width: 30%;
+  background-color: #f6f6f6;
+  padding: 120px 60px;
+  margin: 40px 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+.res-bx h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.res-bx p {
+  font-size: 14px;
+  color: gray;
+  transition: all 0.5s;
+}
+.res-bx i {
+  font-size: 60px;
+  color: #F3525A;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+}
+
+.res-bx:hover {
+  background-color: #F3525A;
+  color: white;
+}
+.res-bx:hover i {
+  color: white;
+}
+.res-bx:hover p {
+  color: white;
+}
+
+.choose-main {
+  padding: 50px 0;
+}
+
+.choose .why {
+  text-align: center;
+}
+.choose .three-bx {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.best {
+  width: 31%;
+  height: 100%;
+}
+.best i {
+  font-size: 60px;
+  margin-bottom: 10px;
+  color: #F3525A;
+}
+.best h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.best .best-sec {
+  margin-bottom: 100px;
+}
+.best .best-sec p {
+  color: gray;
+}
+
+.best-image {
+  margin: 0 40px;
+  text-align: center;
+  background-color: #F3525A;
+}
+.best-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.best-image p {
+  color: white;
+  padding: 30px;
+}
+.best-image .btn {
+  display: inline-block;
+  padding: 15px 30px;
+  color: white;
+  border-radius: 100px;
+  white-space: nowrap;
+  transition: 0.5s;
+  background-color: white;
+  color: #F3525A;
+  border: 1px solid #F3525A;
+  margin: 25px 0;
+}
+.best-image .btn:hover {
+  background: none;
+  border: 1px solid white;
+  color: white;
+}
+
+.request {
+  background-color: #f6f6f6;
+}
+
+.quote {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.quote .free {
+  width: 50%;
+  background-color: #f6f6f6;
+  height: 500px;
+}
+.quote .free h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.quote .free p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 30px;
+  color: gray;
+}
+.quote .free img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.quote .free .form1 {
+  margin-top: 30px;
+}
+.quote .free-quote {
+  padding: 50px 45px;
+}
+
+.form1 .form-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.form1 .form-details .select-area {
+  width: 48%;
+  position: relative;
+}
+
+.info {
+  width: 48%;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  border: none;
+  outline: 0;
+  border-radius: 5px;
+}
+
+.info2 {
+  width: 100%;
+}
+
+.selectServ {
+  position: absolute;
+  top: -4%;
+  left: 3.5%;
+}
+
+.submit {
+  background-color: #F3525A;
+  color: white;
+  border: 1px solid #F3525A;
+  transition: 0.5s;
+}
+
+.submit:hover {
+  border: 1px solid #F3525A;
+  color: #F3525A;
+  background: none;
+}
+
+.team {
+  padding: 50px 0;
+}
+
+.member .member-photo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.member .member-photo img {
+  width: 32%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.what {
+  padding: 50px 0;
+}
+
+.say {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.say .client-photo {
+  width: 50%;
+  height: 700px;
+}
+.say .client-photo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.say .center {
+  width: 50%;
+  padding: 30px;
+  background-color: #f6f6f6;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.client-text .why {
+  text-align: left;
+}
+.client-text .why .head-title {
+  margin-bottom: 30px;
+}
+
+.para {
+  font-size: 25px;
+  color: gray;
+  line-height: 30px;
+  font-weight: 400;
+}
+.para i {
+  display: inline-block;
+  color: #F3525A;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.client {
+  display: flex;
+  flex-wrap: wrap;
+}
+.client .client-image {
+  margin-right: 10px;
+  text-align: center;
+}
+.client .client-image img {
+  width: 80%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.client .text-main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.text p {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.text span {
+  font-size: 14px;
+  color: gray;
+}
+
+.blog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.blog .post {
+  width: 32%;
+}
+
+.post-image img {
+  display: block;
+  width: 100%;
+}
+
+.post-text {
+  display: flex;
+  flex-wrap: wrap;
+}
+.post-text .date {
+  width: 15%;
+  background-color: #F3525A;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.post-text .date span {
+  color: black;
+}
+.post-text .paragraph {
+  width: 85%;
+  background-color: #f6f6f6;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 30px 10px 20px;
+  position: relative;
+}
+.post-text .paragraph p {
+  font-weight: 400;
+}
+.post-text .paragraph .admin {
+  font-size: 12px;
+  color: gray;
+  position: absolute;
+  top: 10%;
+}
+.post-text .paragraph .admin2 {
+  font-size: 12px;
+  color: gray;
+  position: absolute;
+  top: 10%;
+  left: 18%;
+}
+
+.stay {
+  background-color: #F3525A;
+  padding: 50px 0;
+}
+.stay .form1 {
+  text-align: center;
+}
+
+.update .why {
+  margin-bottom: 20px;
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.details .input {
+  width: 15%;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+}
+.details .input2 {
+  width: 6%;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 0 5px 5px 0;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.footer {
+  padding: 50px 0;
+  background-color: rgb(23, 23, 46);
+  color: white;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.quick {
+  width: 20%;
+}
+.quick h4 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+.quick ul li {
+  margin-bottom: 10px;
+}
+.quick ul li a {
+  color: white;
+  font-weight: 400;
+}
+.quick ul li a i {
+  color: #F3525A;
+  margin-right: 10px;
+}
+
+.follow ul {
+  display: flex;
+}
+.follow ul li {
+  margin-right: 20px;
+}
+.follow ul li a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #F3525A;
+  border-radius: 100%;
+  transition: 0.5s;
+  font-size: 18px;
+}
+.follow ul li a i {
+  color: white;
+  margin: 0;
+}
+.follow ul li a:hover {
+  background-color: white;
+  transform: scale(1.2);
+}
+.follow ul li a:hover i {
+  color: #F3525A;
+}
+
+@media only screen and (max-width: 1366px) {
+  .follow ul li a {
+    width: 40px;
+    height: 40px;
+  }
+  .sub-one h1 {
+    font-size: 65px;
+  }
+  .welcome {
+    padding: 50px 25px;
+  }
+  .welcome h2 {
+    font-size: 45px;
+  }
+  .consult .planning {
+    width: 100%;
+    padding: 50px 25px;
+  }
+  .head-title {
+    font-size: 45px;
+  }
+  .res-bx {
+    padding: 50px;
+  }
+  .what-main {
+    padding: 0;
+  }
+  .best {
+    width: 28%;
+  }
+  .best h3 {
+    font-size: 24px;
+  }
+  .best i {
+    font-size: 45px;
+  }
+  .best .best-sec {
+    margin-bottom: 75px;
+  }
+  .best .best-sec2 {
+    margin-bottom: 0;
+  }
+  .info {
+    font-size: 14px;
+  }
+  .form-details .selectServ {
+    top: -10%;
+  }
+  .form-details .selectServ p {
+    font-size: 10px;
+    padding: 5px;
+  }
+  .post-text .paragraph .admin2 {
+    left: 21%;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .sub-one h1 {
+    font-size: 55px;
+  }
+  .res-bx {
+    width: 31%;
+  }
+  .client .client-image img {
+    width: 65%;
+  }
+  .text p {
+    font-size: 26px;
+  }
+  .follow ul li {
+    margin-right: 10px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .one-main {
+    min-height: 650px;
+  }
+  .head {
+    padding: 15px 0;
+  }
+  .navigation .consult {
+    font-size: 26px;
+  }
+  .navigation .consult i {
+    font-size: 30px;
+  }
+  .navigation ul li a {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
+  .sub-one h1 {
+    font-size: 50px;
+  }
+  .welcome {
+    width: 100%;
+    padding: 72px 25px;
+  }
+  .welcome h2 {
+    font-size: 40px;
+  }
+  .welcome p {
+    font-size: 16px;
+  }
+  .business {
+    text-align: start;
+  }
+  .business p {
+    font-size: 16px;
+  }
+  .business span {
+    font-size: 20px;
+  }
+  .business i {
+    margin-bottom: 10px;
+    font-size: 45px;
+  }
+  .business2 {
+    margin: 25px 0;
+  }
+  .consult {
+    text-align: center;
+  }
+  .offer-main {
+    padding-bottom: 0;
+  }
+  .res-bx {
+    padding: 40px;
+  }
+  .res-bx i {
+    font-size: 45px;
+  }
+  .res-bx h3 {
+    font-size: 21px;
+  }
+  .selectServ {
+    left: 4%;
+  }
+  .client .client-image {
+    width: 20%;
+    margin: 0;
+    text-align: start;
+  }
+  .client .client-image img {
+    width: 80%;
+  }
+  .details .input2 {
+    width: 8%;
+  }
+  .best {
+    width: 30%;
+  }
+  .best h3 {
+    font-size: 20px;
+  }
+  .best .best-sec p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .quick {
+    width: 25%;
+  }
+  .quick ul li a {
+    font-size: 14px;
+  }
+  .quote .free h2 {
+    font-size: 45px;
+  }
+  .quote .free p {
+    font-size: 14px;
+  }
+  .quote .free-quote {
+    padding: 20px;
+  }
+  .form-details .selectServ p {
+    font-size: 10px;
+  }
+  .head-title {
+    font-size: 40px;
+  }
+  .para {
+    font-size: 20px;
+  }
+  .post-text .date {
+    font-size: 12px;
+  }
+  .post-text .paragraph p {
+    font-size: 12px;
+  }
+  .post-text .paragraph .admin2 {
+    left: 26%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .navigation .consult {
+    font-size: 20px;
+  }
+  .navigation .consult i {
+    font-size: 24px;
+  }
+  .navigation ul li {
+    margin-right: 35px;
+  }
+  .navigation ul li a {
+    font-size: 14px;
+    padding: 0;
+  }
+  .sub-one .t-btn .btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+  }
+  .sub-one h1 {
+    font-size: 40px;
+  }
+  .sub-one span {
+    font-size: 14px;
+  }
+  .welcome {
+    padding: 20px;
+  }
+  .head-title {
+    font-size: 35px;
+    margin: 20px;
+  }
+  .main .research {
+    justify-content: space-evenly;
+  }
+  .res-bx {
+    width: 42%;
+    margin: 20px 0;
+  }
+  .choose .three-bx {
+    justify-content: center;
+  }
+  .best {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  .best .best-sec {
+    text-align: center;
+  }
+  .best .best-sec p {
+    padding: 0 200px;
+  }
+  .best i {
+    font-size: 50px;
+  }
+  .choose-main {
+    padding: 0;
+  }
+  .request {
+    padding: 0;
+  }
+  .quote .free p {
+    font-size: 14px;
+  }
+  .quote .free-quote {
+    text-align: center;
+  }
+  .quote .free-quote h2 {
+    font-size: 30px;
+  }
+  .info {
+    padding: 10px;
+  }
+  .form-details .selectServ {
+    top: -25%;
+    left: 5%;
+  }
+  .form-details .selectServ p {
+    font-size: 9px;
+  }
+  .what {
+    padding-top: 0;
+  }
+  .what-main {
+    padding-bottom: 0;
+  }
+  .member .member-photo {
+    justify-content: center;
+  }
+  .member .member-photo img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .say .client-photo {
+    width: 100%;
+  }
+  .say .center {
+    width: 100%;
+  }
+  .blog .post {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .post-text .date {
+    width: 22%;
+  }
+  .post-text .paragraph {
+    width: 78%;
+  }
+  .post-text .paragraph .admin2 {
+    left: 22%;
+  }
+  .details .input {
+    width: 25%;
+  }
+  .details .input2 {
+    width: 10%;
+  }
+  .head-title {
+    font-size: 30px;
+    margin: 20px 0;
+  }
+  .quick {
+    width: 50%;
+    margin-bottom: 50px;
+    padding: 0 25px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .navigation ul {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    flex-direction: column;
+    background-color: white;
+    padding-left: 50px;
+    padding-top: 20px;
+  }
+  .navigation ul li {
+    margin-bottom: 20px;
+  }
+  .navigation ul li a {
+    font-size: 16px;
+  }
+  .navigation button {
+    display: block;
+    padding-right: 10px;
+    background: none;
+  }
+  .one-main {
+    min-height: 480px;
+  }
+  .one-main h1 {
+    font-size: 35px;
+  }
+  .sub-one .t-btn .btn {
+    font-size: 14px;
+  }
+  .welcome {
+    width: 100%;
+  }
+  .welcome h2 {
+    font-size: 33px;
+  }
+  .welcome a {
+    margin-top: 20px;
+  }
+  .consult .planning {
+    width: 100%;
+  }
+  .offer-main {
+    padding: 20px 0;
+  }
+  .res-bx {
+    width: 45%;
+    padding: 20px;
+    margin: 10px 0;
+  }
+  .res-bx h3 {
+    font-size: 18px;
+  }
+  .res-bx i {
+    font-size: 35px;
+  }
+  .best .best-sec p {
+    padding: 0 120px;
+  }
+  .best-image {
+    margin: 0 0 80px 0;
+  }
+  .quote .free {
+    width: 100%;
+  }
+  .business p {
+    width: 84%;
+  }
+  .business a {
+    width: 15%;
+  }
+  .best i {
+    font-size: 45px;
+  }
+  .say {
+    height: 100%;
+    margin-bottom: 50px;
+  }
+  .say .client-photo {
+    width: 100%;
+    height: 100%;
+  }
+  .say .center {
+    width: 100%;
+    height: 100%;
+  }
+  .client .client-image {
+    width: 20%;
+  }
+  .client .client-image img {
+    display: block;
+  }
+  .client-text .why .head-title {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .text p {
+    font-size: 20px;
+  }
+  .post-text .paragraph {
+    width: 88%;
+    padding-top: 40px;
+  }
+  .post-text .paragraph p {
+    font-size: 14px;
+  }
+  .post-text .paragraph .admin2 {
+    left: 17%;
+  }
+  .post-text .date {
+    width: 12%;
+  }
+  .head-title {
+    font-size: 30px;
+  }
+  .details .input {
+    width: 30%;
+  }
+  .details .input2 {
+    width: 13%;
+  }
+  .why {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .one {
+    width: 90%;
+  }
+  .one-main {
+    min-height: 380px;
+  }
+  .one-main h1 {
+    font-size: 30px;
+  }
+  .res-bx {
+    width: 90%;
+    padding: 70px;
+  }
+  .res-bx i {
+    font-size: 45px;
+  }
+  .res-bx h3 {
+    font-size: 22px;
+  }
+  .best .best-sec p {
+    padding: 0 70px;
+  }
+  .form-details .selectServ {
+    left: 4%;
+  }
+  .post-text .paragraph .admin2 {
+    left: 22%;
+  }
+  .details .input {
+    width: 35%;
+  }
+  .details .input2 {
+    width: 18%;
+  }
+  .quick {
+    width: 100%;
+    padding: 0;
+  }
+  .follow ul li a {
+    width: 35px;
+    height: 35px;
+  }
+  .footer {
+    padding: 50px 15px;
+  }
+}/*# sourceMappingURL=style.css.map */
